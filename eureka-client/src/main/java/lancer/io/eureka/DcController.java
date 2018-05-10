@@ -24,4 +24,12 @@ public class DcController {
         return services;
     }
 
+    //@GetMapping("/dc") 熔断触发降级
+    //public String dc() throws InterruptedException {
+    //    Thread.sleep(5000L);
+    //    String services = "Services: " + discoveryClient.getServices();
+    //    System.out.println(services);
+    //    return services;
+    //}
+
 }
